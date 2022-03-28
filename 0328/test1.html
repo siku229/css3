@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1.html(Table에서의 css사용)</title>
+    <style>
+        table {
+            width: 800px;
+            height: 600px;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            /* background-color: burlywood; */
+            background-image: url("../../images/1.jpg");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+        table, th, td {
+            margin: 0px;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .tblCont {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>테이블 연습</h2>
+    <br>
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr class="tblCont">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="tblCont">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="tblCont">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr class="tblCont">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+</html>

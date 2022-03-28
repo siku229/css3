@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test2.html(Table에서의 css사용)</title>
+    <style>
+        table {
+            width: 800px;
+            height: 600px;
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            margin: 0px;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        #tr1, #tr2, #tr3, #tr4, #tr5 {
+            text-align: center;
+        }
+        #tr1 {background: linear-gradient(to right, red, blue)}
+        #tr2 {background: linear-gradient(to left, red, blue)}
+        #tr3 {background: linear-gradient(to bottom, red, blue)}
+        #tr4 {background: linear-gradient(to top, red, blue)}
+        #tr5, #layer5 {background: radial-gradient(green, red)}
+        #layer5 {background: radial-gradient(green 30%, red, blue 50%);
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h2>테이블 연습</h2>
+    <br>
+    <table>
+        <tr id="tr1">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr id="tr2">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr id="tr3">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr id="tr4">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr id="tr5">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <div id="layer5"></div>
+</body>
+</html>
